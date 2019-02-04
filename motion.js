@@ -1,7 +1,7 @@
 class move{
 
-constructor(posst1,velst1){
-		this.pos=posst1;this.vel=velst1;
+constructor(posst1A,velst1A){
+		this.pos=posst1A;this.vel=velst1A;
 	this.acc=createVector(.05,.05);}
 	
 move(){

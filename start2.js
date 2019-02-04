@@ -1,14 +1,18 @@
 let inp1;let multvec=[];
 let par0,sl0;let par1,sl1;
 let par2,sl2;let par3,sl3;
-let rad2;let picmov,mov1,mov2,picmovSt,picmovVel;
+let rad2;let picmov,movA,mov2,picmovSt,picmovVel;
+let picmovStA,picmovVelA;
+
 function start2(){
 multvec=[20,30,40,50,100];
 
+picmovStA=createVector(150,50,);
+picmovVelA=createVector(-3,4);
 picmovSt=createVector(50,50,);
 picmovVel=createVector(3,4);
 picmov=select('#movingpic');
-mov1=new move(picmovSt,picmovVel);	
+movA=new move(picmovStA,picmovVelA);	
 mov2=new move(picmovSt,picmovVel);	
 
 inp1=createInput("len1,dir1,len2,dir2,amt");inp1.class('bdd');

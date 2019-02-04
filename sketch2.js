@@ -9,12 +9,11 @@ tChoice=new logo(200,200,0);
 }
 
 function draw(){
-mov1.move();mov1.chWbdd();mov1.show();
 
 mov2.move();mov2.chWbdd();
 picmov.position(mov2.pos.x,mov2.pos.y);
-//background(200,100,50);
-clear();
+background(200,100,50);
+//clear();
 ellipse(50,50,30,30);	
 tv.set1(450,150,0);
 duoPoly(tv,multvec[0],multvec[1],multvec[2],multvec[3],multvec[4]);
@@ -35,5 +34,7 @@ switch (choice){
 	case '3':
 	break;
 	}}
+movA.move();movA.chbdd();movA.show();
+
 }
 
