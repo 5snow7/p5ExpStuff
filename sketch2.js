@@ -6,6 +6,7 @@ can.class('bdd');
 start2();
 tv=new logo(200,200,0);
 tChoice=new logo(200,200,0);
+textSize(20);
 }
 
 function draw(){
